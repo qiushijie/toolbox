@@ -1,17 +1,19 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route, RouteComponentProps} from 'react-router-dom';
 import HomeView from "./views/Home";
+import {Provider} from "mobx-react";
+import stores from './stores';
 
 class Root extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <Provider {...stores}>
         <Router>
           <Switch>
             <Route path="/" component={HomeView}/>
           </Switch>
         </Router>
-      </React.Fragment>
+      </Provider>
     );
   }
 }

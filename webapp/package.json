@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html --no-cache",
+    "start": "parcel index.html --no-cache --no-hmr",
     "build": "parcel build index.html --no-cache --no-source-maps"
   },
   "dependencies": {
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-router-dom": "^5.0.0",

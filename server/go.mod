@@ -1,9 +1,8 @@
 module toolbox
 
 require (
-	github.com/golang/protobuf v1.3.1
+	github.com/gorilla/websocket v1.4.0 // indirect
 	github.com/rakyll/statik v0.1.6
-	golang.org/x/net v0.0.0-20190320064053-1272bf9dcd53 // indirect
+	github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07
 	golang.org/x/sys v0.0.0-20190222072716-a9d3bda3a223 // indirect
-	google.golang.org/grpc v1.19.1
 )
