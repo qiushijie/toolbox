@@ -8,6 +8,7 @@
     "build": "parcel build index.html --no-cache --no-source-maps"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "mobx": "^5.9.0",
     "mobx-react": "^5.4.3",
     "react": "^16.8.4",
